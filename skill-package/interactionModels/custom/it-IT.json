@@ -1,0 +1,61 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "suoni di tokyo",
+      "intents": [
+        { "name": "AMAZON.CancelIntent", "samples": [] },
+        { "name": "AMAZON.HelpIntent", "samples": [] },
+        { "name": "AMAZON.StopIntent", "samples": [] },
+        { "name": "AMAZON.FallbackIntent", "samples": [] },
+        {
+          "name": "PlaySoundIntent",
+          "slots": [
+            { "name": "sound", "type": "SOUND_TYPE" }
+          ],
+          "samples": [
+            "riproduci {sound}",
+            "suona {sound}",
+            "fammi sentire {sound}",
+            "fai partire {sound}",
+            "metti {sound}",
+            "voglio sentire {sound}",
+            "{sound}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "SOUND_TYPE",
+          "values": [
+            {
+              "id": "famima",
+              "name": {
+                "value": "famima",
+                "synonyms": [
+                  "family mart",
+                  "famiglia mart",
+                  "campanello famima",
+                  "jingle famima",
+                  "campanello del konbini"
+                ]
+              }
+            },
+            {
+              "id": "yamanote",
+              "name": {
+                "value": "yamanote",
+                "synonyms": [
+                  "metro yamanote",
+                  "treno yamanote",
+                  "metro di tokyo",
+                  "melodia yamanote",
+                  "jingle yamanote"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

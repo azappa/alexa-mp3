@@ -1,0 +1,26 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "summary": "Riproduce suoni personalizzati su richiesta.",
+          "examplePhrases": [
+            "Alexa, apri suoni di tokyo",
+            "Alexa, chiedi a suoni di tokyo di riprodurre yamanote",
+            "Alexa, chiedi a suoni di tokyo di riprodurre famima"
+          ],
+          "name": "Suoni di Tokyo",
+          "description": "Riproduce il jingle della metro Yamanote e il campanello del konbini a comando."
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Skill personale, uso privato.",
+      "category": "MUSIC_AND_AUDIO",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {}
+    },
+    "manifestVersion": "1.0"
+  }
+}
