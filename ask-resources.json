@@ -1,0 +1,30 @@
+{
+  "askcliResourcesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillMetadata": {
+        "src": "./skill-package"
+      },
+      "code": {
+        "default": {
+          "src": "./lambda",
+          "type": "alexa-hosted",
+          "runtime": "nodejs18.x",
+          "handlers": {
+            "default": {
+              "type": "alexa-hosted",
+              "lambda": {
+                "name": "alexa-sound-skill",
+                "region": "us-east-1",
+                "handler": "index.handler"
+              }
+            }
+          }
+        }
+      },
+      "skillInfrastructure": {
+        "type": "@ask-cli/hosted-skill-deployer"
+      }
+    }
+  }
+}

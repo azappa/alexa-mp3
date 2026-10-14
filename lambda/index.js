@@ -1,7 +1,7 @@
 const Alexa = require('ask-sdk-core');
 const sounds = require('./sounds.json');
 
-// Suono riprodotto quando dici solo "Alexa, apri suoni di tokyo"
+// Suono riprodotto quando dici solo "Alexa, apri suoni tokyo"
 const DEFAULT_SOUND = 'famima';
 
 // Gli URL nel markup SSML devono avere le & scritte come &amp;

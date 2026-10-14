@@ -1,9 +1,9 @@
-# Suoni di Tokyo – skill Alexa per riprodurre mp3 hostati
+# Suoni Tokyo – skill Alexa per riprodurre mp3
 
 Skill personale che riproduce file mp3 ospitati online (es. il jingle della metro Yamanote o il campanello del konbini).
 
-- `Alexa, apri suoni di tokyo` → riproduce il suono predefinito (`famima`)
-- `Alexa, chiedi a suoni di tokyo di riprodurre yamanote` → riproduce il suono scelto
+- `Alexa, apri suoni tokyo` → riproduce il suono predefinito (`famima`)
+- `Alexa, chiedi a suoni tokyo di riprodurre yamanote` → riproduce il suono scelto
 
 ## 1. Prepara l'mp3
 
@@ -42,11 +42,13 @@ Il suono predefinito (quello dell'apertura senza comandi) si cambia con la costa
 
 La skill in sviluppo funziona subito sui tuoi dispositivi Echo collegati allo stesso account, senza pubblicazione.
 
-In alternativa, con l'ASK CLI: `ask deploy` dalla cartella del progetto.
+### Aggiornare il codice
+
+Per le skill Alexa-hosted il codice si distribuisce con un push al repository git che Alexa mette a disposizione (il remote `hosted` di questo repo): il ramo `master` viene distribuito nello stage *development*. I comandi `ask deploy` non sono supportati per le skill hosted (l'ASK CLI lo rifiuta esplicitamente).
 
 ## 5. Comando unico con una Routine
 
-Per dire solo "Alexa, famima": app Alexa → *Altro → Routine → +* → comando vocale `famima` → azione *Skill* o *Personalizzato* con il testo `apri suoni di tokyo`.
+Per dire solo "Alexa, famima": app Alexa → *Altro → Routine → +* → comando vocale `famima` → azione *Skill* o *Personalizzato* con il testo `apri suoni tokyo`.
 
 ## Struttura
 
