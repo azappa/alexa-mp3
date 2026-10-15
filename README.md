@@ -3,8 +3,10 @@
 Skill personale che riproduce file mp3 ospitati online (es. il jingle della metro Yamanote o il campanello del konbini).
 
 - `Alexa, tokyo` → riproduce il suono predefinito (`famima`)
-- `Alexa, tokyo yamanote` → riproduce il suono scelto
-- `Alexa, tokyo famina` → funziona anche con la variante "famina" del suono famima
+- `Alexa, apri tokyo e riproduci yamanote` → riproduce il suono scelto
+- `Alexa, chiedi a tokyo di riprodurre famina` → riproduce famima (anche con la variante "famina")
+
+Nota: le forme dirette tipo "Alexa, tokyo yamanote" non vengono riconosciute; usa sempre la forma *apri tokyo e …* o *chiedi a tokyo di …*.
 
 ## 1. Prepara l'mp3
 
