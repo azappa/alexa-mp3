@@ -2,8 +2,9 @@
 
 Skill personale che riproduce file mp3 ospitati online (es. il jingle della metro Yamanote o il campanello del konbini).
 
-- `Alexa, apri suoni tokyo` → riproduce il suono predefinito (`famima`)
-- `Alexa, chiedi a suoni tokyo di riprodurre yamanote` → riproduce il suono scelto
+- `Alexa, tokyo` → riproduce il suono predefinito (`famima`)
+- `Alexa, tokyo yamanote` → riproduce il suono scelto
+- `Alexa, tokyo famina` → funziona anche con la variante "famina" del suono famima
 
 ## 1. Prepara l'mp3
 
@@ -48,7 +49,7 @@ Per le skill Alexa-hosted il codice si distribuisce con un push al repository gi
 
 ## 5. Comando unico con una Routine
 
-Per dire solo "Alexa, famima": app Alexa → *Altro → Routine → +* → comando vocale `famima` → azione *Skill* o *Personalizzato* con il testo `apri suoni tokyo`.
+Per dire solo "Alexa, famina": app Alexa → *Altro → Routine → +* → comando vocale `famina` → azione *Skill* o *Personalizzato* con il testo `tokyo`.
 
 ## Struttura
 

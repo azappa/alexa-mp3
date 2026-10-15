@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "suoni tokyo",
+      "invocationName": "tokyo",
       "intents": [
         { "name": "AMAZON.CancelIntent", "samples": [] },
         { "name": "AMAZON.HelpIntent", "samples": [] },
@@ -33,6 +33,7 @@
               "name": {
                 "value": "famima",
                 "synonyms": [
+                  "famina",
                   "family mart",
                   "famiglia mart",
                   "campanello famima",
